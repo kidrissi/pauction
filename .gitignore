@@ -1,1 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+
+# Environments
+.env
+*.env
 venv/
+env/
+.venv/
+
+# Django
+*.log
+db.sqlite3
+media/
+staticfiles/
+static/
+
+# Migrations (optional — keep them in real projects)
+# */migrations/* 
+# !*/migrations/__init__.py
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Byte-compiled / C extensions
+*.so
+*.dll
+
+# pytest / coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Django cache
+*.cache
+
+# Local secrets
+secrets.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+*.pid
